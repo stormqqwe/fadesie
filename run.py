@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from discord.ext import commands
 from functions.loveroom import setup as setup_loveroom_handler
+from keep_alive import keep_alive
 
 # Настройка логирования
 logger = logging.getLogger('bot')
@@ -78,4 +79,7 @@ async def main():
         await bot.start(TOKEN)
 
 if __name__ == '__main__':
+    # Запуск веб-сервера для поддержания бота в активном состоянии
+    keep_alive()
+    # Запуск бота
     asyncio.run(main())
