@@ -2,8 +2,8 @@
 
 CONFIG = {
     # Loveroom settings
-    "LOVEROOM_CATEGORY": 1360313443634118736,
-    "LOVEROOM_CHANNELS": [1402161764094705737],
+    "LOVEROOM_CATEGORY": 1402158780543930418,
+    "LOVEROOM_CHANNELS": [1402158905286463559],
     "LOVEROOM_SETTINGS": {
         "name_format": "{user} {heart} {partner}",
         "user_limit": 2,
