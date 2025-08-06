@@ -6,7 +6,7 @@ CONFIG = {
     "LOVEROOM_CHANNELS": [1402158905286463559],
     "LOVEROOM_SETTINGS": {
         "name_format": "{user} {heart} {partner}",
-        "user_limit": 2,
+        "user_limit": 0,
         "timeout": 1
     },
     
